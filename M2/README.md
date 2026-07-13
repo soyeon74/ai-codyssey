@@ -183,7 +183,132 @@ LUMIDROP
 - 제품 가독성 향상
 - 브랜드 일관성 유지
 - 장면 연결성 개선
+## 씬별 기획 및 생성 프롬프트
 
+### Scene 1 — 반복되는 일상
+
+- 시간: 0.0~2.0초
+- 목표: 반복되는 공부와 업무로 일상이 무채색처럼 느껴지는 상황 표현
+- 화면 카피: 오늘도 똑같다면?
+- 이미지 결과: `assets/images/LD_S01_image_v01.png`
+- 영상 결과: `assets/videos/LD_S01_video_v01.mp4`
+
+#### 이미지 생성 프롬프트
+
+> Use the uploaded LUMIDROP product image as the exact product reference.
+> Create scene 1 of a premium cinematic beverage advertisement.
+> Place the same LUMIDROP can at the center of a dark gray office desk
+> in a minimal modern workspace.
+> Use muted monochrome gray colors, low saturation, soft dim lighting,
+> a clean desk, a slightly top-down camera angle, and a 16:9 composition.
+> Keep the product shape, turquoise color, coral accent,
+> water-drop symbol, proportions, and material consistent.
+> No person, no hand, no extra can, no product deformation,
+> no logo distortion, and no dramatic special effects.
+
+#### 이미지→영상 프롬프트
+
+> The product can remains completely still and keeps its original shape.
+> The camera performs a very slow and smooth push-in toward the product.
+> The dim office lighting changes only slightly.
+> No camera shake, no fast movement, no product rotation,
+> no product deformation, no logo change, and no additional objects.
+
+---
+
+### Scene 2 — 변화의 시작
+
+- 시간: 2.0~4.2초
+- 목표: 제품이 열리는 순간 무채색 공간이 청량한 분위기로 변화하기 시작함
+- 이미지 결과: `assets/images/LD_S02_image_v02.png`
+- 영상 결과: `assets/videos/LD_S02_video_v01.mp4`
+- 효과음: `assets/audio/LD_S02_canopen_v01.wav`
+
+#### 이미지 생성 프롬프트
+
+> Use the uploaded product master image as the exact product reference.
+> Keep the LUMIDROP can in exactly the same position, size,
+> and camera angle as the previous scene.
+> Maintain the dark gray atmosphere on the left side
+> and allow a soft turquoise light to spread from the right side.
+> Add a small number of bubbles and particles without covering
+> the front symbol.
+> Preserve the exact can shape, color, proportions, and material.
+> No person, no hand, no extra can, no explosion,
+> no splash, and no product deformation.
+
+#### 이미지→영상 프롬프트
+
+> The LUMIDROP can remains perfectly rigid, centered, and unchanged.
+> A soft turquoise light slowly spreads from right to left.
+> A small number of bubbles and fine particles gently rise
+> without covering the product.
+> The camera remains nearly stationary.
+> No explosion, no fast movement, no camera shake,
+> no product rotation, and no logo change.
+
+---
+
+### Scene 3 — 청량한 전환
+
+- 시간: 4.2~7.0초
+- 목표: 한 모금이 지루한 일상을 밝고 청량한 순간으로 전환한다는 가치 전달
+- 내레이션: 한 모금으로, 분위기를 바꿔.
+- 이미지 결과: `assets/images/LD_S03_image_v01.png`
+- 영상 결과: `assets/videos/LD_S03_video_v01.mp4`
+- 음성 결과: `assets/audio/LD_S03_voice_v01.wav`
+
+#### 이미지 생성 프롬프트
+
+> Use the uploaded product master image as the exact product reference.
+> Transform the background into a bright, clean,
+> futuristic turquoise environment.
+> Place the same LUMIDROP can at the center.
+> Add a soft circular turquoise glow,
+> a few transparent water droplets,
+> small carbonation bubbles, and subtle coral accents.
+> Keep the product clearly visible and unobstructed.
+> No person, no hand, no extra can, no large splash,
+> no explosion, and no product deformation.
+
+#### 이미지→영상 프롬프트
+
+> The LUMIDROP can remains centered and keeps its original shape.
+> Transparent droplets and small bubbles gently float upward.
+> The circular turquoise light slowly pulses once.
+> The camera makes a very slight smooth arc movement.
+> No fast rotation, no camera shake, no product deformation,
+> and no additional product.
+
+---
+
+### Scene 4 — 브랜드 엔드 카드
+
+- 시간: 7.0~9.04초
+- 목표: 브랜드명을 명확하게 노출해 LUMIDROP을 기억하게 함
+- 화면 카피: LUMIDROP / 한 모금, 분위기 전환.
+- 이미지 결과: `assets/images/LD_S04_image_v01.png`
+- 영상 결과: `assets/videos/LD_S04_video_v01.mp4`
+
+#### 이미지 생성 프롬프트
+
+> Use the uploaded product master image as the exact product reference.
+> Create a minimal final end card with a bright turquoise background.
+> Place the product front-facing in the upper-middle of the frame.
+> Add a soft circular turquoise glow and subtle coral lighting.
+> Leave generous empty space below the product for the brand name
+> and slogan, which will be added during editing.
+> No person, no hand, no extra can, no bubbles,
+> no splash, no generated text, and no product deformation.
+
+#### 이미지→영상 프롬프트
+
+> The LUMIDROP can remains perfectly rigid,
+> front-facing, and centered.
+> Only the circular turquoise glow slowly expands once.
+> The camera remains completely still.
+> No product movement, no camera movement,
+> no particles, no generated text, and no logo change.
 ---
 
 # 🚨 문제 해결
